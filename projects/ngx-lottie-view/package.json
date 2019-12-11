@@ -1,0 +1,9 @@
+{
+    "name": "ngx-lottie-view",
+    "version": "0.0.2",
+    "peerDependencies": {
+        "@angular/common": "^8.2.14",
+        "@angular/core": "^8.2.14",
+        "lottie-web": "^5.5.10"
+    }
+}

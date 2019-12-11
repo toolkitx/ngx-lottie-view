@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ngx-lottie-view": [
+        "dist/ngx-lottie-view"
+      ],
+      "ngx-lottie-view/*": [
+        "dist/ngx-lottie-view/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
