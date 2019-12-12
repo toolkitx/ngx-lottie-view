@@ -1,6 +1,6 @@
 {
     "name": "ngx-lottie-app",
-    "version": "0.0.0",
+    "version": "0.0.2",
     "scripts": {
         "ng": "ng",
         "start": "ng serve",
@@ -9,6 +9,7 @@
         "lint": "ng lint",
         "e2e": "ng e2e",
         "lib:start": "ng build ngx-lottie-view --watch",
+        "lib:test": "ng test ngx-lottie-view",
         "lib:update-version": "cd projects/ngx-lottie-view && npm version patch",
         "prelib:build": "npm run lib:update-version",
         "lib:build": "ng build ngx-lottie-view",

@@ -9,8 +9,7 @@ describe('NgxLottieViewComponent', () => {
     beforeEach(async(() => {
         TestBed.configureTestingModule({
             declarations: [NgxLottieViewComponent]
-        })
-            .compileComponents();
+        }).compileComponents();
     }));
 
     beforeEach(() => {

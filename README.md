@@ -1,5 +1,7 @@
 ## Lottie component for Angular
-   
+
+[![NPM](https://nodei.co/npm/ngx-lottie-view.png?compact=true)](https://nodei.co/npm/ngx-lottie-view/)
+
 Lottie is a mobile library for Android and iOS that parses [Adobe After Effects](http://www.adobe.com/products/aftereffects.html) animations exported as JSON with [bodymovin](https://github.com/bodymovin/bodymovin) and renders them natively on mobile!
 
 ### Install
@@ -41,7 +43,7 @@ export class YourModule { }
 | Prop     | Description                                                         | Default |
 |----------|---------------------------------------------------------------------|---------|
 | path     | The relative path to the animation object                           | null    |
-| loop     | A boolean flag indicating whether or not the animation should loop. | true    |
+| loop     | A boolean/number flag indicating whether or not the animation should loop. | true    |
 | render   | 'svg' / 'canvas' / 'html' to set the renderer                       | svg     |
 | autoPlay | true / false it will start playing as soon as it is ready           | true    |
 
@@ -50,4 +52,7 @@ export class YourModule { }
 |-------------------|-------------|
 | animationLoad     | DOMLoaded   |
 | animationComplete | complete    |
+
+
+
 

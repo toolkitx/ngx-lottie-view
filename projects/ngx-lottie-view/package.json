@@ -1,9 +1,17 @@
 {
     "name": "ngx-lottie-view",
-    "version": "0.0.2",
+    "description": "Lottie component for angular",
+    "author": "toolkitx",
+    "license": "MIT",
+    "version": "0.0.3",
+    "keywords": [
+        "angular",
+        "lottie",
+        "animation"
+    ],
     "peerDependencies": {
-        "@angular/common": "^8.2.14",
-        "@angular/core": "^8.2.14",
+        "@angular/common": "*",
+        "@angular/core": "*",
         "lottie-web": "^5.5.10"
     }
 }
